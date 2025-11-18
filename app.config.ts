@@ -23,7 +23,7 @@ export default ({ config }: ConfigContext): ExpoConfig => {
   return {
     expo: {
       name: "NutriAI",
-      slug: "nutriai",
+      slug: "ecals",
       version: "1.0.6",
       orientation: "portrait",
       icon: "./assets/images/icon.png",
