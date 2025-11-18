@@ -1,0 +1,21 @@
+# Build artifacts
+ios/build/
+ios/Pods/
+ios/DerivedData/
+android/build/
+android/.gradle/
+
+# Node modules (sera réinstallé par EAS)
+node_modules/
+
+# Documentation et notes
+*.md
+!README.md
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+.DS_Store
