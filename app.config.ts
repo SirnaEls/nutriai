@@ -22,12 +22,12 @@ export default ({ config }: ConfigContext): ExpoConfig => {
   
   return {
     expo: {
-      name: "ecals",
-      slug: "ecals",
-      version: "1.0.5",
+      name: "NutriAI",
+      slug: "nutriai",
+      version: "1.0.6",
       orientation: "portrait",
       icon: "./assets/images/icon.png",
-      scheme: "ecals",
+      scheme: "nutriai",
       userInterfaceStyle: "automatic",
       newArchEnabled: true, // Réactivation de la New Arch comme ce matin
       splash: {
@@ -38,7 +38,7 @@ export default ({ config }: ConfigContext): ExpoConfig => {
       ios: {
         supportsTablet: true,
         bundleIdentifier: "com.ecals.app",
-        buildNumber: "8",
+        buildNumber: "9",
         infoPlist: {
           NSHealthShareUsageDescription: "Cette app accède à vos données de poids pour suivre votre progression.",
           NSHealthUpdateUsageDescription: "Cette app enregistre vos données de poids pour suivre votre progression.",
@@ -47,7 +47,7 @@ export default ({ config }: ConfigContext): ExpoConfig => {
       },
       android: {
         package: "com.ecals.app",
-        versionCode: 8,
+        versionCode: 9,
         adaptiveIcon: {
           foregroundImage: "./assets/images/adaptive-icon.png",
           backgroundColor: "#ffffff",
