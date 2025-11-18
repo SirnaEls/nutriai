@@ -40,6 +40,8 @@ export default ({ config }: ConfigContext): ExpoConfig => {
         bundleIdentifier: "com.ecals.app",
         buildNumber: "9",
         infoPlist: {
+          CFBundleDisplayName: "NutriAI",
+          CFBundleName: "NutriAI",
           NSHealthShareUsageDescription: "Cette app accède à vos données de poids pour suivre votre progression.",
           NSHealthUpdateUsageDescription: "Cette app enregistre vos données de poids pour suivre votre progression.",
           ITSAppUsesNonExemptEncryption: false, // ✅ ajoute cette ligne
